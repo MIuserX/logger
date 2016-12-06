@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <stdarg.h>
 
+// add a comment
+
 int jlogger_level = 0;
 
 void jlogger_info(const char *_date, const char *_time, const char *_file, int _line, const char *fmt, ...)
